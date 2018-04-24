@@ -1,6 +1,6 @@
 # Site settings
 title: Data Expedition Demolabs
-url: https://storyhunt.de/
+url: https://dataexpedition.demokratielabore.de/
 
 sass:
   sass_dir: css/_scss
