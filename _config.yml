@@ -11,7 +11,7 @@ color:
   primary: EEEEEE #d8b365
   primary-rgb: "39, 196, 244" #"216,179,101"
   secondary: 0A070C #B2230B
-  secondary-dark: F62459 #01665e
+  secondary-dark: ff0033 #01665e
 
 # Build settings
 markdown: kramdown
