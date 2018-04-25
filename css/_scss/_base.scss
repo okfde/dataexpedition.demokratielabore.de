@@ -225,3 +225,12 @@ footer .footer-below {
     font-size: 1.75em;
   }
 }
+
+.btn-secondary {
+  color: black;
+}
+
+.btn-secondary:hover {
+  background-color: $grey;
+  border: 1px solid black;
+}
