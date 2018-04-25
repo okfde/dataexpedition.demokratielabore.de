@@ -44,15 +44,19 @@
 
   .navbar-brand, .navbar-brand:hover {
     color: $white;
-    max-width: 500px;
+    //max-width: 500px;
     line-height: 1;
     height: unset;
   }
 
   .navbar-nav {
+    a:focus {
+      color: $white !important;
+    }
     .active {
       a {
         color: $white;
+        text-decoration: underline;
       }
     }
   }
@@ -63,7 +67,9 @@
 }
 
 .navbar-nav > .active > a {
-  background-color: $secondary !important;
+  //background-color: $secondary !important;
+  background-color: transparent !important;
+  text-decoration: underline;
 }
 
 .container-logo {
