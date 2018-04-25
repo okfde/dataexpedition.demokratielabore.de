@@ -20,7 +20,7 @@ a:focus,
 a:active,
 a.active {
   outline: 0;
-  color: $secondary-dark;
+  color: $pink;
 }
 
 h1,
@@ -107,7 +107,7 @@ hr.star-secondary {
 
 .section-alter {
   color: $white;
-  background-color: #00fff9;
+  background: linear-gradient(to right, #0089f9 0%, #00e1dd 100%);;
 }
 
 .section-main {
@@ -233,4 +233,8 @@ footer .footer-below {
 .btn-secondary:hover {
   background-color: $grey;
   border: 1px solid black;
+}
+
+.btn-primary {
+  background-color: #0168fc;
 }
