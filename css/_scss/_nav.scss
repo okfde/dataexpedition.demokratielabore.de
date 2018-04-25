@@ -44,6 +44,9 @@
 
   .navbar-brand, .navbar-brand:hover {
     color: $white;
+    max-width: 500px;
+    line-height: 1;
+    height: unset;
   }
 
   .navbar-nav {
@@ -61,6 +64,10 @@
 
 .navbar-nav > .active > a {
   background-color: $secondary !important;
+}
+
+.container-logo {
+  max-width: 150px;
 }
 
 @media #{$medium-devices} {
