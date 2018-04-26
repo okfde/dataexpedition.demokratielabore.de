@@ -185,6 +185,11 @@ footer .footer-below {
   margin-top: 15px;
 }
 
+.footer-logo-small {
+  max-height: 80px;
+  margin-top: 30px;
+}
+
 @media #{$phones} {
   .footer-logo {
     margin-top: 30px;
